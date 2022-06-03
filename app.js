@@ -16,7 +16,7 @@ const my_route = ruta.get("/:id", (req,res)=>{
     let id = req.params.id;
     fetch(`${API}/${id}`)
     .then(promesaFetch => promesaFetch.json())
-    .then(contenido => res.send(contenido['name']));
+    .then(contenido => res.send({"Nombre":contenido['name']}));
 });
 
 app.use("/star-wars",my_route);
