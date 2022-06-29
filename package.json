@@ -1,5 +1,5 @@
 {
-  "name": "MicroAda",
+  "name": "Star-Wars_Service",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -8,7 +8,7 @@
     "start": "node app"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ada Chanona",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

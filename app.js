@@ -4,7 +4,7 @@ import cors from 'cors';
 
 
 var app = express();
-const port = 3000
+const port = 8080
 const API = "https://swapi.dev/api/people/"
 const ruta = express.Router();
 
