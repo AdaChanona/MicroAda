@@ -21,7 +21,7 @@ const my_route = ruta.get("/:id", (req,res)=>{
 
 app.use("/star-wars",my_route);
 app.get('/', (req,res)=>{
-    res.send({"message":"Bienvenido a mi API"})
+    res.send({"message":"hola, bienvenido a la API de Ada"})
 });
 
 app.listen(port, function () {
